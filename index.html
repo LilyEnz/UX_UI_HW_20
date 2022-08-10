@@ -11,28 +11,47 @@
 
 </head>
 <body>
-    <nav class="nav justify-content-end">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light customNav">
         <a class="navbar-brand" href="#"><img src="images/LRE-logo.png">LILY ENZLER</a>
-        <a class="nav-link active" aria-current="page" href="#">PORTFOLIO</a>
-        <a class="nav-link" href="#">ABOUT THE PROJECT</a>
-        <a class="nav-link" href="#">RESEARCH</a>
-        <a class="nav-link" href="#">PROBLEM</a>
-        <a class="nav-link" href="#">IDEATION</a>
-        <a class="nav-link" href="#">TESTING</a>
-        <a class="nav-link" href="#">PROTOTYPE</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">ABOUT THE PROJECT</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">RESEARCH </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">PROBLEM</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">TESTING</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">PROTOTYPE</a>
+              </li>
+            
+            <li class="nav-item">
+              <a class="btn btn-primary btn-lg navCTA" href="#" role="button">CONTACT</a>
+            </li>
+          </ul>
+        </div>
       </nav>
     
       <div class="jumbotron">
         <div class="jumboCopy">
           <h1 class="display-4">NOAA Website Redesign</h1>
           <p class="lead">We redesigned the NOAA's website for better accessability and navigation.</p>
-          <a class="btn btn-primary btn-lg" href="#" role="button">View Case Study</a>
         </div>
       </div>
-      
-
-      <div class="text col-6">
-        <h2>ABOUT NOAA</h2>
+     
+    <h2>ABOUT NOAA</h2>
+<div>
+      <div class="text col-6 float-left">
         <p> The National Oceainic and Atmospheric Administration 
             (NOAA) is an American scientific and regulatory agency
              within the United States Department of Commerce that forecasts 
@@ -54,53 +73,114 @@
 
         </ul>
      </div>
-      <div class="imageContainer"><img src="images/NOAALogo.png"> </div>
-      <div class="imageContainer"> <img></div>
+      <div class="imageContainer col-3"> <img src="images/NOAALogo.png"></div>
+    </div>  
 
-     <h2>RESEARCH</h2> 
      <div class="container-fluid content">
-        <h2 class="sectionHeading">Shows Near You</h2>
+        <h2 class="sectionHeading">RESEARCH</h2>
         <div class="row showsNear">
   
           <!-- Card 1 -->
           <div class="cardContainer col-lg-4 col-md-4 col-sm-12">
             <div class="card">
-              <img src="images/show1.jpg" class="card-img-top" alt="...">
+              <img src="images/scuba woman 2.png" class="card-img-top" alt="...">
               <div class="card-body">
-                <h5 class="card-title">Melbourne, Australia</h5>
-                <p class="card-text">Come see Slipknot unlease their new album "We Are Not Your Kind"</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
+                <h5 class="card-title">Proto Persona: Allison Bradley</h5>
+                <p class="card-text">Allison is a  27 years old climate activist who loves Scuba Diving & DIY Projects.
+                    She Wants to raise awareness about coral reef preservation within her local community. In the age of misinformaiton, Allision hates
+                    unreliaible sources. She wants to give people concrete evidence and resources on climate change. She trusts the NOAA
+                    website to give her valid information but sometimes has trouble navigating the NOAA website. 
+                    </p>
               </div>
             </div>
           </div>
           
           <div class="cardContainer col-lg-4 col-md-4 col-sm-12">
             <div class="card">
-              <img src="images/show2.jpg" class="card-img-top" alt="...">
+              <img src="images/HomePage-Partialpng.png" class="card-img-top" alt="chccklist icon with clipboard and pencil">
               <div class="card-body">
-                <h5 class="card-title">Chicago, Illinois</h5>
-                <p class="card-text">Metallica finally returns to the big stage in Chicago Illinois</p>
-                <a href="#" class="btn btn-primary">Buy Tickets</a>
+                <h5 class="card-title">Huerstic Evaluation</h5>
+                <p class="card-text">The major flaws we identfied:
+                </p>
+                <ul>
+                    <li>No clear indication on how to move to the next step (ie. Research Page) or where user is in the process</li>
+                    <li>Hard to undo or redo an actions</li>
+                    <li>Uses icons that are not universal with no label</li>
+                    <li>Some elements are difficult to see with very little contrast</li>
+                </ul>
               </div>
             </div>
           </div>
         
-  
-          <!-- Card 3 -->
           <div class="cardContainer col-lg-4 col-md-4 col-sm-12">
             <div class="card">
-              <img src="images/show3.jpg" class="card-img-top" alt="...">
+              <img src="images/NOAA Homepage.png" class="card-img-top" alt="...">
               <div class="card-body">
-                <h5 class="card-title">Long Beach, California</h5>
-                <p class="card-text">The Red Hot Chili Peppers take the stage at the Honda Center</p>
-                <a href="#" class="btn btn-primary">Buy Tickets</a>
+                <h5 class="card-title">User Tests</h5>
+                <p class="card-text">Conducted with 5 people via interveiw<br>
+
+                    Objective: Identify pain points for users navigating the NOAA Website <br>
+                    
+                    Tasks:
+                    Name three West Coast Sanctuaries
+                    Find the Education Resource Collection on Marine Mammals
+                    
+                    Common Observations:
+                    Users do not see side bar as navigation
+                    Use search bar to go directly to pages
+                     </p>
               </div>
             </div>
           </div>
-          <!-- End card 3 -->
         </div>
       </div>
-      <!-- End cards -->
+
+<div class="jumbotron">
+    <div class="jumboCopy">
+        <h1 class="display-4">Problem Statement</h1>
+        <p class="lead"></p>
+    </div>
+</div>
+
+<h2>PROTOTYPE</h2>
+<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="images/iMac on the white desk_NOAA2.png" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Redesigned Website</h5>
+          <p>Some representative placeholder content for the first slide.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="images/iMac on the white desk_Screenshot 2022-07-13 155608.png" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Current Website</h5>
+          <p>Some representative placeholder content for the second slide.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="..." class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h5>Third slide label</h5>
+          <p>Some representative placeholder content for the third slide.</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
   
 
 </body>

@@ -30,3 +30,10 @@ div{
     align-items: center;
     justify-content: center;
   }
+
+  .imageContainer img {
+    width: 100%;
+  }
+  .imageContainer {
+    padding: 50px;
+  }
