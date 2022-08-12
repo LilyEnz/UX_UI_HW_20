@@ -7,6 +7,9 @@
     <title>Homework 20</title>
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css" type="text/css">
 
 </head>
@@ -45,19 +48,20 @@
         </div>
       </nav>
     
-      <div class="jumbotron">
-        <div class="jumboCopy">
+      <div class="jumbotron1">
+        <div class="imageContainer col-3"> <img src="images/NOAALogo.png"></div>
+        <div class="jumboCopy1">
           <h1 class="display-4">NOAA Website Redesign</h1>
           <p class="lead">We redesigned the NOAA's website for better accessability and navigation.</p>
         </div>
-        <div class="imageContainer col-3"> <img src="images/NOAALogo.png"></div>
+        
       </div>
 
 <div id="AboutNOAA">
      
 <h2>ABOUT NOAA</h2>
 <div class="row content">
-    <div class="imageContainer col-6"> <img src="images/7k-noaa-5hzjvgpg6vo-unsplash.jpg"></div>
+    <div class="imageContainer col-6"> <img src="images/noaa-SVPvJZEgoE0-unsplash.jpg"></div>
       <div class="text col-6">
         <p> The National Oceainic and Atmospheric Administration 
             (NOAA) is an American scientific and regulatory agency
@@ -143,8 +147,8 @@
         </div>
       </div>
 </div>
-<div class="jumbotron" id="Problem">
-    <div class="jumboCopy">
+<div class="jumbotron2" id="Problem">
+    <div class="jumboCopy2">
         <h1 class="display-4">Problem Statement:</h1>
         <p class="lead">The NOAA website is difficult to navigate with an unorthodox sidebar menu that lacks universal icons and labels. </p>
     </div>
@@ -256,13 +260,11 @@
    <div class="row showsNear">
     <div class="cardContainer col-lg-4 col-md-4 col-sm-12">
       <div class="card">
-        <img src="images/scuba woman 2.png" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">Task</h5>
-          <p class="card-text">Allison is a  27 years old climate activist who loves Scuba Diving & DIY Projects. She lives in Miami, Florida.
-              She wants to raise awareness about coral reef preservation and climate change within her local community. In the age of misinformaiton, Allision hates
-              unreliaible sources. She wants to give people concrete evidence and resources on climate change. She trusts the NOAA
-              website to give her valid information and resources but sometimes has trouble navigating the NOAA website. 
+          <p class="card-text">
+            Test: <br> Find the Story of Greg Marshall (specific page) <br>
+            Expected user path: <br> Menu → Stories → Featured Story
               </p>
         </div>
       </div>
@@ -270,16 +272,19 @@
     
     <div class="cardContainer col-lg-4 col-md-4 col-sm-12">
       <div class="card">
-        <img src="images/HomePage-Partialpng.png" class="card-img-top" alt="chccklist icon with clipboard and pencil">
         <div class="card-body">
           <h5 class="card-title">Results/Observations</h5>
-          <p class="card-text">The major flaws we identfied:
+          <p class="card-text">
           </p>
           <ul>
-              <li>No clear indication on how to move to the next step (ie. Research Page) or where user is in the process</li>
-              <li>Hard to undo or redo an actions (ex. go back one page or to home page)</li>
-              <li>Uses icons on the navigation bar are not universal symbols and have no labels until the menu is opened</li>
-              <li>Some words and elements are difficult to see with very little contrast</li>
+            
+
+              <li>People still relied heavily on search bar</li>
+              <ul>
+                <li>Note for future: Make sure search results are well organized</li>
+              </ul>
+              <li>“Stories” tab in menu was below the scroll so many people went to media</li>
+              <li>Hard to get back to previous page</li>
           </ul>
         </div>
       </div>
@@ -287,10 +292,15 @@
   
     <div class="cardContainer col-lg-4 col-md-4 col-sm-12">
       <div class="card">
-        <img src="images/NOAA Homepage.png" class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">Iterations</h5>
-          <p class="card-text"></p>
+          <p class="card-text">
+                <ul>
+                    <li>Moved “About” to first in mobile menu</li>
+                    <li>Add mobile breadcrumbs</li>
+                    <li>Changed mobile footer to be easier to read and more accessible</li>
+                </ul>
+          </p>
 
         </div>
       </div>
@@ -341,7 +351,44 @@
 </div>  
 
 <footer>
+<div class="container-fluid content blue">
+    <div class="row">
+        <div class="foot col-3">
+            <a class="navbar-brand" href="#"><img src="images/PersonalLogo-White-Navy.png">LILY ENZLER</a>
+        </div>
+        <div class="col-3">
+            <ul class="foot">
+           
+                <li> 
+                    <a href="#AboutNOAA">About the NOAA</a>
+                </li>
+                <li>
+                    <a href="#Research">Research</a>
+                </li>
+                <li>
+                    <a href="#Problem">Problem</a>
+                </li>
+            </ul>
+        </div>
 
+        <div class="col-3">
+            <ul class="foot">
+                <li>
+                    <a href="#Ideation">Ideation</a>
+                </li>
+                <li>
+                    <a href="Testing">Testing</a>
+                </li>
+                <li>
+                    <a href="Prototype">Prototype</a>
+                </li>
+
+            </ul>
+
+        </div>
+
+    </div>
+</div>
 
 </footer>
 
