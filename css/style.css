@@ -4,9 +4,13 @@ body{
     background-color: white; 
 }
 
+p{
+    font-family: 'Roboto', sans-serif;
+}
+
 .customNav {
     position: fixed;
-    width: 88%;
+    width: 89%;
     background-color: white;
     background-size: cover;
     z-index: 10;
@@ -93,11 +97,13 @@ h1{
 }
 
 h2{
+    font-family: 'Roboto', sans-serif;
     text-align: center;
     margin-top: 10px;
     margin-bottom: 10px;
 }
 h3{
+    font-family: 'Roboto', sans-serif;
     margin-top: 10px;
     margin-bottom: 10px;
 }
